@@ -11,6 +11,6 @@
 		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
 		"role": "Developer"
 	}]
-	,"require": {"mage2pro/amazon-login": "^1.0.5"}
+	,"require": {"mage2pro/amazon-login": ">=1.0.5", "mage2pro/core": ">=2.4.45"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AmazonPayments\\": ""}}
 }
