@@ -7,37 +7,31 @@
 		<section id='df_amazon'>
 			<group
 				id='payments'
-				translate='label'
+				showInDefault='1' showInStore='1' showInWebsite='1'
 				sortOrder='3'
-				showInDefault='1'
-				showInWebsite='1'
-				showInStore='1'
+				translate='label'
 			>
 				<dfExtension>Dfe_AmazonPayments</dfExtension>
 				<frontend_model>Df\Config\Fieldset</frontend_model>
 				<label>Payments</label>
 				<field
 					id='enable'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='1'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='1'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Enable?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
 					<comment><![CDATA[Enable the «<a href='https://mage2.pro/c/extensions/amazon-payments' target='_blank'>Amazon Payments</a>» extension?]]></comment>
 				</field>
 				<field
+					dfWebhook_requireHTTPS='true'
 					id='webhook'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='2'
 					translate='label'
 					type='Df\Framework\Form\Element\Webhook'
-					dfWebhook_requireHTTPS='true'
-					sortOrder='2'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Notifications URL</label>
 					<comment><![CDATA[<a href='https://mage2.pro/t/1717' target='_blank'>How to setup the Instant Notifications? </a>]]></comment>
