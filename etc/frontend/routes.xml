@@ -4,7 +4,7 @@
 	xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd"
 >
 	<router id='standard'>
-		<route id='Dfe_AmazonPayments' frontName='dfe-amazon-payments'>
+		<route frontName='dfe-amazon-payments' id='Dfe_AmazonPayments'>
 			<module name='Dfe_AmazonPayments'/>
 		</route>
 	</router>
